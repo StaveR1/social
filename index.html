@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staver | Донатик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .banner {
+      background: url('Back.groundpng.png') no-repeat center center / cover;
+      border-radius: 2rem;
+      width: 100%;
+      max-width: 900px;
+      height: 200px;
+      margin-bottom: 2rem;
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card {
+      background-color: #1c1c1c;
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 800px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-content {
+      flex: 1;
+    }
+
+    .card-content h2 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .card-content p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+    }
+
+    .socials {
+      background-color: #1c1c1c;
+      border-radius: 20px;
+      max-width: 800px;
+      width: 100%;
+      padding: 15px 25px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      box-sizing: border-box;
+    }
+
+    .socials a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #ffffff;
+      color: black;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+
+    .socials a:hover {
+      background-color: #2d4c9b;
+      color: #ffffff;
+    }
+
+    .socials i {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+
+      .card-content h2 {
+        font-size: 1.3rem;
+      }
+
+      .card-content p {
+        font-size: 0.95rem;
+      }
+
+      .socials a {
+        font-size: 0.95rem;
+        padding: 10px 12px;
+      }
+
+      .socials i {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="banner">
+    <img src="Back.groundpng.png" alt="Staver Banner">
+  </div>
+
+  <div class="card">
+    <div class="logo">
+      <img src="LOGO.png" alt="Staver Logo">
+    </div>
+    <div class="card-content">
+      <h2>StaveR</h2>
+      <p>🔥 Гей, друже! 🔥 Ти зайшов сюди не просто так, а значить, тебе зацікавив мій контент! 💙 Тому підпишись на мої соціальні мережі щоб слідкувати за мною.</p>
+    </div>
+  </div>
+
+  <div class="socials">
+    <a href="https://www.youtube.com/@staver_s"><i class="fab fa-youtube"></i> YouTube</a> <br>
+    <a href="https://www.twitch.tv/staver_s"><i class="fab fa-twitch"></i> Twitch</a><br>
+    <a href="https://www.instagram.com/staver_s/"><i class="fab fa-instagram"></i> Instagram</a><br>
+    <a href="https://t.me/st4ver_s"><i class="fab fa-telegram"></i> Telegram</a><br>
+    <a href="https://www.tiktok.com/@staver_s"><i class="fab fa-tiktok"></i> TikTok</a><br>
+  </div>
+</body>
+
+</html>
